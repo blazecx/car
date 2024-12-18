@@ -1,0 +1,306 @@
+header{
+    background-image: url(/image/back_header.png);
+    height: 12vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-size: cover;
+}
+.div_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3vw;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Sansation Light';
+}
+.a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Sansation Light';
+    cursor: pointer;
+}
+.div_center_header{
+    display: flex;
+    gap: 10vw;
+}
+.logo{
+    width: 7vw;
+}
+.car_gif{
+
+    width: 50vw; 
+
+}
+.block_one{
+    display: flex;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    align-items: center;
+    gap: 2.3vw;
+}
+h3{
+
+    color: #161515;
+    font-size: 132px;
+    font-family: 'Syncopate', sans-serif;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color: #868686;
+    font-weight: 400;
+    filter: blur(2px);
+
+}
+h1{
+    color: white;
+    font-size: 3vw;
+    font-family: 'Sansation Light', sans-serif;
+}
+h2{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Sansation Light', sans-serif;
+}
+p{
+    font-family: 'Sansation Light', sans-serif;
+    color: white;
+    font-size: 1vw;
+}
+.block_two{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+    padding-top: 10vw;
+
+}
+.div_three{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+.div_one{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1vw;
+    align-items: center;
+}
+.img_main{
+    width: 10vw;
+}
+footer{
+    background-color: #061917;
+    display: flex;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    justify-content: space-between;
+    height: 15vw;
+    align-items: center;
+}
+.main_div_register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form_reg{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 1.5vw;
+    padding-top: 2vw;
+    padding-bottom: 10vw;
+}
+.input_reg{
+    border: 1px solid white;
+    color: #16F0D7;
+    font-family: 'Sansation Light', sans-serif;
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    background: none;
+    width: 30vw;
+}
+.input_reg::placeholder{
+    
+    color: #16F0D7;
+    font-family: 'Sansation Light', sans-serif;
+    font-size: 1.5vw;
+    
+
+}
+.button_reg{
+    background: none;
+    border: 1px solid white;
+    color:#16F0D7;
+    font-size: 1.5vw;
+    font-family: 'Sansation Light', sans-serif;
+    padding: 0.5vw;
+    width: 15vw;
+    cursor: pointer;
+}
+.div_center_footer{
+    text-align: center;
+}
+th{
+    color: white;
+    font-size: 1vw;
+    font-family: 'Sansation Light', sans-serif;
+}
+.booking_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.booking_table th, .booking_table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.booking_table th {
+
+    text-align: left;
+}
+
+.booking_row img {
+    width: 50px; /* Установите нужный размер для изображений */
+    margin-right: 10px;
+}
+td{
+    color: white;
+    font-size: 1vw;
+    font-family: 'Sansation Light', sans-serif;
+}
+.stat{
+    width: 10vw;
+}
+.bookings1{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 20vw;
+}
+.button_reg1{
+    background: none;
+    border: 1px solid white;
+    color:#16F0D7;
+    font-size: 1vw;
+    font-family: 'Sansation Light', sans-serif;
+    padding: 0.5vw;
+    width: 8vw;
+    cursor: pointer;
+}
+.div_but{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.title_booking{
+    color: white;
+    font-size: 2vw;
+    font-family: 'Sansation Light', sans-serif;
+    padding-bottom: 5vw;
+}
+.catalog{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+    padding-bottom: 10vw;
+}
+.div_all{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9.5vw;
+
+}
+.img_car{
+    width: 20vw;
+    height: 23vw;
+}
+.tovar{
+    font-size: 2vw;
+}
+.button_reg2{
+    background: none;
+    border: 1px solid white;
+    color:#16F0D7;
+    font-size: 1vw;
+    font-family: 'Sansation Light', sans-serif;
+    padding: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    cursor: pointer;
+}
+.product_div{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+
+}
+.booking_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Отступ сверху для таблицы */
+}
+
+.booking_table th, .booking_table td {
+    border: 1px solid #ddd;
+    padding: 10px; /* Отступы для ячеек */
+    text-align: left; /* Выравнивание текста */
+}
+
+
+
+.booking_img_table {
+    width: 50px; /* Ширина изображения в таблице */
+    height: auto; /* Автоматическая высота для пропорций */
+}
+.Loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Sansation Light', sans-serif;
+    font-size: 3vw;
+    height: 100vh;
+}
+.div_create_bid{
+    text-align: center;
+}
+.form_bid{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10vw;
+}
+.div_block_res{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 10vw;
+}
+.div_form_bid{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.data{
+    padding: 0.5vw;
+    background: none;
+    color: #16F0D7;
+    border: 1px solid white;
+}
+.bookings{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.div_bottom_hr_booking{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 10vw;
+    padding-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
